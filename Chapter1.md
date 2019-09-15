@@ -57,7 +57,7 @@ Since the underlying image is ubuntu, We want the packages updated and want to i
 *   Inside the Dockerfile write**“FROM ubuntu”**(if not already there)
 *   Write **“RUN sudo apt-update && apt-get install tree”**
 *   Exit to the terminal 
-*   Build the _dockerFile _using **<code>docker build -t dockerFile</code></strong>
+*   Build the _dockerFile _using **<code>docker build -t dockerFile</code>**
 *   Run the <em>dockerFile</em> using <strong><code>docker run --rm dockerFile</code></strong>
 
 RUN apt- get update && apt-get install tree:
