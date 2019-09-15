@@ -2,7 +2,7 @@ Docker is just like an operating system for containers. Containers wrap up all d
 
 Suppose on the Linux terminal we run a tree command which is not yet installed, it throws a not found error. But we can run the instance of a container which will allow running the tree command. 
 
-**To Build a File:<code> Docker build -t demo_tree . </code></strong>
+**To Build a File:** <code> Docker build -t demo_tree . </code></strong>
 
 **To run the instance**: `docker run -it demo_t `
 
