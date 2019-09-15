@@ -25,7 +25,7 @@ Suppose on the Linux terminal we run a tree command which is not yet installed, 
 
 Creates the underlying base image for building libraries
 
-**Syntax: ** FROM [base image name]
+**Syntax:** FROM [base image name]
 
 **E.g.:**         FROM ubuntu
 
@@ -54,7 +54,7 @@ Since the underlying image is ubuntu, We want the packages updated and want to i
 
 
 *   Open the dockerFile
-*   Inside the Dockerfile write** “FROM ubuntu” **(if not already there)
+*   Inside the Dockerfile write**“FROM ubuntu”**(if not already there)
 *   Write **“RUN sudo apt-update && apt-get install tree”**
 *   Exit to the terminal 
 *   Build the _dockerFile _using **<code>docker build -t dockerFile</code></strong>
