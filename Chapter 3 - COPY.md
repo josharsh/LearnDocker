@@ -11,7 +11,7 @@ Command copy copies files and folder from local machine it puts them on running 
 *   Write **“RUN sudo apt-update && apt-get install tree”**
 *   Write **“COPY [Source] [Sink]”**
 *   Exit to the terminal 
-*   Build the _dockerFile _using **<code>docker build -t dockerFile</code></strong>
+*   Build the _dockerFile _using **<code>docker build -t dockerFile</code>**
 *   Run the <em>dockerFile</em> using <strong><code>docker run --rm dockerFile</code></strong>
 
 <strong>Example:</strong>
