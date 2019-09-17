@@ -31,8 +31,6 @@ Creates the underlying base image for building libraries
 
 **Steps To Follow:**
 
-
-
 *   Create a folder using**<code> mkdir,</code></strong> navigate to it
 *   Create a docker file using <strong><code>vi Dockerfile</code></strong>
 *   Inside the Dockerfile write<strong> “FROM ubuntu”</strong>
