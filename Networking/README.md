@@ -29,7 +29,7 @@ To expose the port number of container to the physical host. The physical host w
 
 Create a network in host to run the container.
 
-The idea is to have the range of IP address so that they can be assigned to the containers. For this CIDR will be used. CIDR is Classless Inter Domain Routing. A private subnet will be created.  
+The idea is to have a range of IP addresses so that they can be assigned to the containers. For this CIDR will be used. CIDR is Classless Inter Domain Routing. A private subnet will be created.  
 
 
 
