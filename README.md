@@ -5,10 +5,10 @@ This repository walks you through the basics of using docker.
 
 ### Contributing Guidelines!
 
- Read this space to know the contributing guidelines. Please follow the guidelines for smooth contribution. Following the guidelines reflect your courtesy towards the open source contribution. The issues, potential changes and pull requests will be addressed in compliance with the quality of need and urgency.  
+ Read these instructions to understand the contribution guidelines. Please follow the guidelines to ensure a smooth contribution. Following the guidelines reflects your respect towards the open source contribution. The issues, potential changes and pull requests will be addressed in compliance with the quality of need and urgency.  
 
 ### Expected Contribution:
-In case you are willing to contribute in any form, You're most Welcome! Improvement in documentation, reporting bugs and mistakes is expected in general.
+In case you are willing to contribute in any form, you're most welcome! Improvements to documentation, reporting bugs and mistakes is expected in general.
 
 # Getting started
 
@@ -17,7 +17,7 @@ Issues should be created to submit a change to the repository before opening a p
 
 
 # Your First Contribution
-In case you have additions to the concepts, codebase, or anything relevant, You're most welcome to open an issue, followed by opening a pull request. You are again welcome to report a mistake in the existing content, and code obselete issues.
+In case you have additions to the concepts, codebase, or anything relevant, you're most welcome to open an issue, followed by opening a pull request. You are again welcome to report a mistake in the existing content, and code obsolete issues.
 
 
 ### Know More about open Source Contributions:
