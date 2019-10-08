@@ -1,5 +1,5 @@
 # LearnDocker
-This repository walks your through the basics to learn the basics of using docker.
+This repository walks you through the basics of using docker.
 
 # CONTRIBUTING
 
