@@ -3,7 +3,7 @@
 
 # Understanding Expose
 
-To expose the port number of container to the physical host. The physical host will b e connected to the internal port of the container. The application will be running on the container
+To expose the port number of container to the physical host. The physical host will be connected to the internal port of the container. The application will be running on the container
 
 
 

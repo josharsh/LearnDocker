@@ -31,4 +31,4 @@ Run in Interactive Mode: docker run --rm add_docker ls/root/Harsh_apps/  to see 
 
 In place of “Harsh_apps.tar.gz”, a URL can also be given.
 
-<span style="text-decoration:underline;">It is not recommended, the best practices it to use wget or curl and then move it to the required destination, Go with RUN to use wget and extract things.</span>
+<span style="text-decoration:underline;">It is not recommended, the best practices is to use wget or curl and then move it to the required destination, Go with RUN to use wget and extract things.</span>

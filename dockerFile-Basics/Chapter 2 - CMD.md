@@ -24,7 +24,7 @@ CMD echo "I am Learning Docker and Running a container"
 ```
 
 
-Now, the echo statement is printed.  To run multiple instructions, come to docker file in your cmd command put a semicolon at the end of the first command the write the second command 
+Now, the echo statement is printed.  To run multiple instructions, come to docker file in your cmd command put a semicolon at the end of the first command then write the second command 
 
 **E.g.**
 

@@ -60,9 +60,9 @@ Since the underlying image is ubuntu, We want the packages updated and want to i
 
 RUN apt- get update && apt-get install tree:
 
-This will be executed using two different layers but the good practice is to use as fewer layers as possible.
+This will be executed using two different layers but the best practice is to use as fewer layers as possible.
 
-Now ubuntu has been created as a base image and using the cache, the update has bee done and the tree has been installed on the instance of the running container. 
+Now ubuntu has been created as a base image and using the cache, the update has been done and the tree has been installed on the instance of the running container. 
 
 While the instance of the container is running type in:
 

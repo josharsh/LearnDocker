@@ -27,7 +27,7 @@ docker run -it --rm copy_docker
 ```
 
 
-To copy flas_apps folder from local machine to root folder of container with the same name.
+To copy flask_apps folder from local machine to root folder of container with the same name.
 
 After the Container is started
 
