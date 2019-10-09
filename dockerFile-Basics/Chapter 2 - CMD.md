@@ -1,6 +1,6 @@
 # UNDERSTANDING CMD
 
-Instructs the docker that as soon as this docker starts, execute the set of  commands following CMD. Basically, whatever under CMD will be executed as soon as the container starts
+Instructs the docker that as soon as this docker starts, execute the set of commands following CMD. Basically, whatever under CMD will be executed as soon as the container starts
 
 
 **Steps To Follow:**

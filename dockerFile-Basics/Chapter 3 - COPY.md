@@ -1,6 +1,6 @@
 # Understanding COPY:
 
-Command copy copies files and folder from local machine it puts them on running instance of the container so that container has access to them.
+Command copy copies files and folder from local machine and it puts them on running instance of the container so that container has access to them.
 
 **Steps To Follow:**
 
