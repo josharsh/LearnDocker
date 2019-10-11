@@ -1,5 +1,5 @@
 # Networking in Docker
-
+Docker takes care of the networking aspects so that the containers can communicate with other containers and also with the Docker Host.
 
 # Understanding Expose
 
