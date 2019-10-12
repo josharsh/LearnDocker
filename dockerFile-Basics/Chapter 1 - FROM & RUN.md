@@ -1,4 +1,4 @@
-Docker is just like an operating system for containers. Containers wrap up all dependencies to run a software. Irrespective of the presence of the dependencies on the local machine, dockers allow running the instance of containers which allow running the application needing those dependencies. 
+**Docker** is just like an operating system for containers. Containers wrap up all dependencies to run a software. Irrespective of the presence of the dependencies on the local machine, dockers allow running the instance of containers which allow running the application needing those dependencies. 
 
 Suppose on the Linux terminal we run a tree command which is not yet installed, it throws a not found error. But we can run the instance of a container which will allow running the tree command. 
 

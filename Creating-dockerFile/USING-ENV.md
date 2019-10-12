@@ -4,5 +4,5 @@ About environment variables when docker starts
 * RUN apt-get-update
 * ENV workdir=/root/
 * WORKDIR=$workdir
-//Created an environment variable for workdir.
+**Created an environment variable for workdir.**
 
