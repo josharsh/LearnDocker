@@ -1,8 +1,6 @@
 # UNDERSTANDING HEALTHCHECK
 
-Healthcheck is a docker command which is used to check the application resources. 
-
-
+**Healthcheck** is a docker command which is used to check the application resources. 
 
 *   FROM ubuntu
 *   RUN apt-update
