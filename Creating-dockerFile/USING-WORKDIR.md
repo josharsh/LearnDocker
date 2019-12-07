@@ -4,36 +4,38 @@ Working directory specifies a default directory in the docker image to perform c
 
 To set a default working directory for all such instructions is done using this command
 
-vi dockerFile
+```bash
+vi Dockerfile
+```
 
+And then adde the following to this file:
+
+```bash
 FROM UBUNTU
 
-//Few files in one dir, few in another
+// Few files in one dir, few in another
 
-RUN touch  /root/testfile.txt
-
+RUN touch /root/testfile.txt
 RUN touch /root/testfile2.txt
-
 RUN touch /root/testfile3.txt
 
 // To create more folders
 
 RUN mkdir-p root/testFolder/child-1
-
 RUN mkdir-p root/testFolder/child-2
 
 /* Tiresome work */
+```
 
 Alternatively
 
+```bash
 FROM ubuntu
 
 WORKDIR /root/
 
 RUN touch ./textfile1.txt
-
 RUN touch ./textfile2.txt
-
 RUN mkdir ./newFolder/childFolder-1
 
 WORKDIR ./root/newFolder/child-Folder-1
@@ -41,5 +43,6 @@ WORKDIR ./root/newFolder/child-Folder-1
 // Now working directory is /root/newFolder/child-Folder-1
 
 RUN touch hello.txt
+```
 
-So, workdir basically puts you onto the directory where you want to be when the docker starts
+So, workdir basically puts you onto the directory where you want to be when the docker starts.
