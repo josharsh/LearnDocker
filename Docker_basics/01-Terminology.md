@@ -88,8 +88,19 @@ A Dockerfile is a simple text file that contains a list of commands that the Doc
 
 The advantage of a Dockerfile over just storing the binary image (or a snapshot/template in other virtualization systems) is that the automatic builds will ensure we have the latest version available. This is a good thing from a security perspective, as we want to ensure that we are not installing any vulnerable software.
 
-### Docker Daemon 
+### Docker Daemon
+The Docker daemon (`dockerd`) is a persistent background process that manages Docker images, containers, networks, and storage volumes. The Docker daemon constantly listens for Docker API requests and processes them. Is the process that runs in the operating system which clients talk to.
 
+<img alt="Docker Daemon" src="img/daemon.svg" title="Docker Daemon" width="500"/>
+
+When you use the `docker run` command to start up a container, your Docker client will translate that command into an HTTP API call, will send it to Docker daemon, Docker daemon will then evaluate the request, talk to the underlying operating system and provision your container.
 
 ### Docker Client
-### Docker Hub
+The Docker client (`docker`) is the command line tool that allows the user to interact with the daemon. More generally, there can be other forms of clients too - such as Kitematic which provide a GUI to the users.
+
+The Docker client is the primary way that many Docker users interact with Docker. When you use commands such as `docker run`, the client sends these commands to `dockerd`, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
+
+### Docker Registry
+A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
+
+When you use the `docker pull` or `docker run` commands, the required images are pulled from your configured registry. When you use the `docker push` command, your image is pushed to your configured registry.
