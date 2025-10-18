@@ -13,7 +13,7 @@ And then adde the following to this file:
 ```bash
 FROM UBUNTU
 
-// Few files in one dir, few in another
+# Few files in one dir, few in another
 
 RUN touch /root/testfile.txt
 RUN touch /root/testfile2.txt
@@ -21,8 +21,8 @@ RUN touch /root/testfile3.txt
 
 // To create more folders
 
-RUN mkdir-p root/testFolder/child-1
-RUN mkdir-p root/testFolder/child-2
+RUN mkdir -p root/testFolder/child-1
+RUN mkdir -p root/testFolder/child-2
 
 /* Tiresome work */
 ```
@@ -35,7 +35,7 @@ FROM ubuntu
 WORKDIR /root/
 
 RUN touch ./textfile1.txt
-RUN touch ./textfile2.txt
+RUN mkdir ./newFolder/childFolder-1
 RUN mkdir ./newFolder/childFolder-1
 
 WORKDIR ./root/newFolder/child-Folder-1
